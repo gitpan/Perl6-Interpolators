@@ -4,7 +4,7 @@ use 5.6.0;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Text::Balanced qw(extract_codeblock);
 
@@ -72,6 +72,7 @@ context in some cases, for example.)
 =over 4
 
 =item *
+
 Using this module precludes use of $(.  However, you can temporarily disable the module while you munge with $(:
 
 	no Perl6::Interpolators;
@@ -79,6 +80,7 @@ Using this module precludes use of $(.  However, you can temporarily disable the
 	use Perl6::Interpolators
 
 =item *
+
 Currently this module will make changes inside single-quoted strings.  It won't interpolate a call--it'll just look funny.
 
 =back

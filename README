@@ -1,9 +1,11 @@
-Perl6/Interpolators version 0.01
+Perl6/Interpolators version 0.02
 ================================
 
 This is the readme for Perl6::Interpolators, a source filter which 
 allows you to interpolate function calls into strings and force
 context--the same way Perl 6 will do it.
+
+NOTE: This is BETA SOFTWARE.
 
 INSTALLATION
 
